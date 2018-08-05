@@ -20,7 +20,7 @@ defmodule Rumbl.Repo do
     end)
   end
 
-  def all(Rumble.User) do
+  def all(Rumbl.User) do
     [
       %Rumbl.User{
         id: "1",
